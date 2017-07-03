@@ -1,0 +1,90 @@
+@media all and (max-width: 700px), (max-device-width: 700px) {
+  .top-navigation {
+    display: none;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: ProximaNova,Texta,Tahoma,sans-serif;
+}
+
+.top-navigation * {
+  color: #3d3d3d;
+}
+
+.top-navigation a:focus {
+  outline: none;
+}
+
+
+.top-navigation > ul > li > a:hover, .top-navigation > ul > li > a:focus {
+  color: #f14848;
+}
+
+.top-navigation ul ul a:hover, .top-navigation ul ul a:focus{
+  background: #f14848;
+  color: #ffffff;
+}
+
+
+footer {
+  background: #3d3d3d;
+}
+
+.footer-navigation a {
+  color: #ffffff;
+}
+
+.footer-navigation ul a {
+  color: #7A7A7A;
+}
+
+.footer-navigation ul a:hover, .footer-navigation ul a:focus{
+  color: #f14848;
+}
+
+.bottom-footer {
+  background: #151515;
+}
+
+.bottom-footer a, .footer-text {
+  color : #7A7A7A;
+}
+
+.bottom-footer a:hover, .bottom-footer a:focus {
+  color : #ffffff;
+}
+
+a.box-link {
+  border-radius: 1.7em;
+  padding: 1.2em 2em;
+}
+
+a.red {
+  background: #f14848;
+  color: #ffffff;
+}
+
+a.white {
+  color: #f14848;
+  background: #ffffff;
+}
+
+.intro {
+  height: 500px;
+  background: url(../assets/main-bg/home-featured-bg.png);
+  background: url(../assets/main-bg/home-brain-image-new-1920x816.png);
+  opacity: 50;
+  background-size: auto;
+}
+
+.main-title {
+  color: #ffffff;
+
+}
+
